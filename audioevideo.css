@@ -1,0 +1,40 @@
+*/{
+    height: fit-content ;
+}
+body{
+    background-image: linear-gradient(to bottom,#5244E0, #230C38);
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    background-color: #c8a0ed;
+    text-align: center;
+    
+}
+main{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+h1{
+    background-color: #cdbddc;
+    background-size: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+h2{
+    text-align: center;
+}
+dd{
+    font-size:0.8em;
+}
+.voltar{
+    text-align: right;
+    background-color: wheat;
+    margin: 40%;
+    margin: auto;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula de forms</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+<main>
+    <h1>&lt;FORM&GT;</h1>
+        <p>Formularios são a melhor foma de conseguirmos informações dos usuarios e assim estabelecermos uma relação mais cordial e amistosa. <br>
+            A tag usada par formularios é a &lt;form&gt; e seus principais atributos são:
+            <ul>
+                <dl>
+                    <dt>action</dt>
+                    <dd> Define o local onde os dados coletados serão alocados, geralmente é a url do server</dd>
+                    <dt>method</dt>
+                    <dd>Normalmente seguido pelo velor <em>get</em> ou <em>post</em>e define o metodo de envio ao server.</dd>
+                </dl>
+            </ul>
+        </p>
+        <p>
+            Para aceitarmos um dado do usuario usamos a tag &lt;input/&gt; e devemos sempre colocar atributos que tipificam e indentificam os dados, o principais atributo é:
+            <ul>
+                <dl>
+                    <dt>type</dt>
+                    <dd>indica o tipo de conteudo a ser preenchido</dd>
+                    <dt></dt>
+                </dl>
+            </ul><br>
+            E os principais tipos de type são:
+                <ul>
+                    <dl>
+                        <dt>password</dt>
+                        <dd>usado para esconder caracteres pois normalmente é onde senhas sao colocadas</dd>
+                        <dt>submit</dt>
+                        <dd>cria um botão de envio</dd>
+                        <dt>e-mail</dt>
+                        <dd>cria a aceitação de e-mail's que passam por parametros especificos</dd>
+                        <dt>tel</dt>
+                        <dd>cria uma area que aceita telefone</dd>
+                        <dt>checkbox</dt>
+                        <dd>cria um botão check</dd>
+                        <dt>radio</dt>
+                        <dd>cria botoes de seleção</dd>
+                    </dl>
+                </ul>
+        </p>
+        <h2>Abaixo veremos um exemplo pratico:</h2>
+<div>
+        <form action="get">
+        <p>Olá, por qual nome posso te chamar? <br><input type="text"></p>
+        <p>e-mail <br><input type="email"></p>
+        <p>telefone <br><input type="tel"></p>
+        <p>genero <br>
+            masculino <input type="radio" name="masculino" id="genero" value="masculino">
+            feminino <input type="radio" name="feminino" id="genero" value="femino"></p>
+        <p>senha <br><input type="password" name="password" id="password"></p>
+    </form>
+</div>
+    <p>para o formulario acima foi digitado o seguinte codigo:</p>
+   <p>
+        &lt;form action="get"&gt;<br>
+            &lt;p&gt;Olá, por qual nome posso te chamar?&Lt;input type="text"&gt;&LT;/p&GT;<br>
+            &lt;p&gt;e-mail&lt;
+            input type="email">&lt;/p&gt;<br>
+            &lt;p>telefone &lt
+            input type="tel">&lt;/p&gt;<br>
+            &lt;p&gt;genero&lt;<br>
+                masculino &lt;input type="radio" name="masculino" id="genero" value="masculino"&gt;&lt;                feminino &lt;input type="radio" name="feminino" id="genero" value="femino"&gt;&lt;/p&gt;<br>
+            &lt;p&gt;senha &lt;input type="password" name="password" id="password"&gt;&lt;/p>
+    </p>
+</main>
+<div class="voltar">
+    <a href="./index.html">voltar</a>
+</div>
+   
+
+    
+</body>
+</html>

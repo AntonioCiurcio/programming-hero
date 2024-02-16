@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="audioevideo.css">
+</head>
+<body>
+    <header>programing hero course</header>
+   <main>
+        <h1>audio e video</h1>
+            <p>Assim como trazemos imagens usando a tag &lt;img&gt; e seus atributos , tambem conseguimos colocar audios com a tag  <mark>&lt;audio&gt</mark> ; e videos usando a tag <mark>&lt;video&gt;</mark></p>
+            <p>para localizarmos um arquivo na pasta ou server usamos sempre o atributo <mark>src</mark></p>
+            <p>no caso de midias dinamicas como audio e video precisamos tambem colocar certas tags para criarmos players de controle para o usuario interagir, e para isso usamos o atributo <mark>controls</mark> </p> 
+            <p>outrs atributos indispensaveis são:</p>
+                <ul>
+                    <li>pre-load</li>
+                    <dd>o atributo pre-load serve para dizer ao navegador o quanto carregar do arquivo e para isso ele usa tres opcoes de sub-atributos, que sao:</dd>
+                        <ul>
+                            <dl>
+                                <dt>metadata</dt>
+                                <dd>que carrega apenas detalhes sobre a midia antes do usuario interagir</dd>
+                                <dt>none</dt>
+                                <dd>não ira carregar nenhuma informação antes da interação</dd>
+                                <dt>auto</dt>
+                                <dd>que ira carregar todas as informaços da midia antes do </dd>
+                            </dl>
+                        </ul>
+                    <li>controls</li>
+                    <dd>que vai permitir que o navegador coloque um display para a interação</dd>
+                    <li>autoplay</li>
+                    <dd>que levara a midia a iniciar assim que o navegador completar o carregamento da pg</dd>
+                    <li>loop</li>
+                    <dd>que fara a midia ficar em looping enquanto a pagina estiver aberta</dd>
+                    <li>poster</li>
+                    <dd>que em caso de videos dira qual imagem sera mostrada antes do usuario dar play</dd>
+                </ul>
+                <p>A seguir veremos exemplos</p>
+                    <audio src="Little Umbrellas - TrackTribe.mp3" preload="metadata" controls>musiquinha</audio>
+                    <br>
+                    <video src="1.mp4" preload="metadata" controls poster="1.jpg" width="40%">videosinho</video>
+                    <br>
+        <a href="index.html">voltar</a>
+    </main>
+</body>
+</html>

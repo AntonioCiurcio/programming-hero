@@ -1,0 +1,43 @@
+*/{
+    height: 100;
+}
+body{
+    background-image: linear-gradient(to bottom,#5244E0, #230C38);
+    background-attachment: fixed;
+    margin:10%;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-size: 60%;
+}
+main{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: justify;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+dd{
+    font-size: small;
+}
+form{
+    border: #230C38;
+    border-color: #5244E0;
+    border-radius: 100px;
+        text-align: center;
+}
+div{
+    margin:1%,30%,1%,30%;
+    border-radius: 5%;
+    padding: 10px;
+    background-color: #9c96d7;
+}
+.voltar{
+    text-align: right;
+    background-color: wheat;
+    margin: 40%;
+    margin: auto;
+}
