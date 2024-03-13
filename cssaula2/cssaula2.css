@@ -1,0 +1,27 @@
+.img-p{
+    width: 300px;
+    padding: 5px;
+   background-color: aqua;
+}
+.img-m{
+    width: 700px;
+    padding: 5px;
+    background-color: aqua;
+}
+.img-g{
+    width: 1080px;
+    padding: 5px;
+    background-color: aqua;
+}
+.button-1{
+    padding: 10px;
+}
+.button-2{
+    padding: 10px 20px;
+}
+.button-3{
+    padding: 10px 20px 15px;
+}
+.button-4{
+    padding: 10px 20px 15px 1px;
+}
