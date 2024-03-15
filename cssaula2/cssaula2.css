@@ -1,3 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+
+:root{
+    --co1: #D187E5;
+    --cor2: #9475E6; 
+    --cor3: #E67875;
+    
+    }
+    h1, h2, h3, h4, h5, h6{
+             font-family: "Space Grotesk", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 1em;
+            font-style: normal;
+            color: #E67875;
+            text-shadow: 1px 1px black;
+
+          }
+    
+    p{
+        font-family: "Roboto", sans-serif;
+        font-weight: 1em;
+        font-style: normal;
+        text-align: justify;
+        text-indent: 1%;
+    }
+
+
+body{
+        background-image: url(../istockphoto-1035676256-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+header{
+    background-color: #9475E6;
+    text-align: center;
+    
+}
+main{
+    padding: 10px;
+    background-color: #d187e5aa;
+}
+nav{
+    background-color: #dc83f444;
+}
 .img-p{
     width: 300px;
     padding: 5px;
@@ -24,4 +69,33 @@
 }
 .button-4{
     padding: 10px 20px 15px 1px;
+}
+div.boxgenerica{
+    border: 1px solid black;
+    width: 300px;
+    height: 200px;
+}
+div#exmargininterno{
+    background-color: black;
+    width: 100px;
+    height: 80px;
+    margin: 20px;
+}
+div#bordersize{
+    border: 5px solid black;
+    width: 100px;
+    height: 80px;
+    margin: 20px;
+}
+div#borderstyle{
+    border: 25px groove black;
+    width: 100px;
+    height: 80px;
+    margin: 20px;
+}
+div#bordercolor{
+    border: 10px double rgb(142, 0, 189);
+    width: 100px;
+    height: 80px;
+    margin: 20px;
 }
